@@ -62,14 +62,14 @@ st.table(df)
 
 st.header("st.image")
 st.text("Display an image or list of images.")
-code = '''st.image("Logo_Tunup.PNG")'''
+code = '''st.image("EUBS.PNG")'''
 st.code(code, language='python')
 st.image("Logo_Tunup.PNG")
 
 
 st.header("st.video")
 st.text("Display a video player.")
-code = '''st.video("content/images/tunupvideo.mp4")'''
+code = '''st.video("content/images/EUBS.mp4")'''
 st.code(code, language='python')
 st.video("content/images/tunupvideo.mp4")
 
